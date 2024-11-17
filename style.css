@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #f4f4f4;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    width: 25vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px 3px rgb(182, 181, 181);
+    justify-content: space-between;
+
+}
+
+.header{
+    height: 34%;
+    background-color: rgb(0, 110, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+.header img{
+    width: 35%;
+    position: relative;
+    top: 25%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 0px 3px #4070f4;
+}
+
+.card h1{
+    font-family: "Open Sans", sans-serif;
+    font-size : 22px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 350;
+    font-variation-settings: "wdth" 100;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.icons .link{
+    /* background-color: rgb(10, 87, 231); */
+    width:34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width : 100%;
+    align-items: center;
+    margin: 4px 8px;
+}
+
+.buttons button{
+    background-color: #4070f4;
+    border: none;
+    width: 40%;
+    border-radius: 24px;
+    padding: 5px;
+    margin: 2px 4px;
+}
